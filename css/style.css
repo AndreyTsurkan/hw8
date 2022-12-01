@@ -1,23 +1,21 @@
-/* MAIN */
 
-.wrapper {
+
+.container {
     width: 58%;
-    outline: 2px solid forestgreen;
 }
 
-.wrapper,
-.primary {
+
+.container,
+.primary  {
     margin: 0 auto;
 }
-
-/* HEADER */
 
 .header {
     background-color: #eeeff1;
     padding: 79px 0 141px;
 }
 
-.menu-wrap {
+.menu__wrap {
     margin-bottom: 16.5%;    
 }
 
@@ -25,75 +23,109 @@
     font-size: 0;
 }
 
-.menu>.menu__item {
+.menu__item {
     display: inline-block;
     font-size: 1rem;
     margin-right: 3.8%;
 }
 
-.menu>.menu__item>.menu__link {
+.menu__link,
+.menu__link-primary {
     text-transform: uppercase;
     text-decoration: none;
     color: #000000;
     font-weight: 400;
 }
 
-.menu>.menu__item>.menu__link--current {
+.menu__link-primary {
     color: #34547A;
 }
 
-.menu>.menu__item>.menu__link:hover {
-    color: #ff6600;
+.menu__link:hover,
+.menu__link-primary:hover {
+    text-decoration: underline;
 }
 
-.hero__title {
-    font-size: 3rem;
+
+.main__title {
+    font-size: 2.5rem;
     margin-bottom: 6%;
     font-weight: 500;
 }
 
-.hero__btn {
+.main__button {
+    width: 23%;
     display: inline-block;
-    padding: 20px 41px;
+    padding: 2% 4%;
     background: #34547A;
-    transition: all .8s;
 }
 
-.hero__btn:hover {
-    background: #ff6600;
-    transition: all .8s;
+.main__button-btn {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.main__text {
+    width: 49%;
+}
+
+.main__button-btn:hover {
+    text-decoration: underline;
+}
+
+.main__text,
+.section__text,
+.work__text {
+    font-style: normal;
+    line-height: 1rem;
+    color: #727272;
+    margin-bottom: 10%;
+}
+
+.section__title,
+.work__title  {
+    font-size: 2rem;
+    text-align: center;
+    margin: 6% 0 3%;
+    font-weight: 500;
+
 }
 
 
 .primary {
     width: 49%;
+    text-align: center;
 }
 
-.about>.wrapper,
-.work>.wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
 .projects,
 .footer {
     background: #34547A;
 }
 
+
 .projects__wrap,
-.projects__item {
+.projects__item,
+.projects__description {
     display: flex;
 }
 
 .projects__wrap {
+    padding: 9% 0;
     justify-content: space-between;
 }
 
 .projects__description {
-    display: flex;
-    flex-direction: column;
+    color: #FFFFFF;
+    flex-direction: column ;
+    padding-bottom: 10px;
+    padding-left: 20px;
     justify-content: space-between;
+}
+
+.projects__title {
+    font-weight: bold;
 }
 
 
@@ -102,3 +134,12 @@
     height: 600px;
 }
 
+.footer-wrap {
+    margin-left: 21%;
+    color: #FFFFFF;
+}
+
+.footer__title {
+    font-size: 20px;
+    font-weight: 500;
+}
