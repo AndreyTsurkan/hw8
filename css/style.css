@@ -1,9 +1,7 @@
-
-
+/*Header*/
 .container {
     width: 58%;
 }
-
 
 .container,
 .primary  {
@@ -46,7 +44,6 @@
     text-decoration: underline;
 }
 
-
 .main__title {
     font-size: 2.5rem;
     margin-bottom: 6%;
@@ -68,6 +65,7 @@
 
 .main__text {
     width: 49%;
+    margin-bottom: 6.1%;
 }
 
 .main__button-btn:hover {
@@ -80,30 +78,25 @@
     font-style: normal;
     line-height: 1rem;
     color: #727272;
-    margin-bottom: 10%;
 }
 
 .section__title,
 .work__title  {
     font-size: 2rem;
     text-align: center;
-    margin: 6% 0 3%;
     font-weight: 500;
-
+    margin: 11% 0 5%;
 }
-
 
 .primary {
     width: 49%;
     text-align: center;
 }
 
-
 .projects,
 .footer {
     background: #34547A;
 }
-
 
 .projects__wrap,
 .projects__item,
@@ -127,7 +120,6 @@
 .projects__title {
     font-weight: bold;
 }
-
 
 .video {
     width: 100%;
