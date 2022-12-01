@@ -1,140 +1,136 @@
-/*Header*/
+
 .container {
-    width: 58%;
+    width: 58%;/*Задал ширину контейнера */
 }
 
 .container,
 .primary  {
-    margin: 0 auto;
+    margin: 0 auto;/*Центрирую элемент внутри родителя  */
 }
 
 .header {
-    background-color: #eeeff1;
-    padding: 79px 0 141px;
+    background-color: #eeeff1;/*Указываю фон хедеру*/
+    padding: 79px 0 141px;/*Указываювнутренний отступ  */
 }
 
 .menu-wrap {
-    margin-bottom: 16.5%;    
+    margin-bottom: 16.5%; /*Указываю наружный отступ снизу */
 }
 
 .menu {
-    font-size: 0;
+    font-size: 0;/*Убираю  лишний промежуток между линками*/
 }
 
 .menu__item {
-    display: inline-block;
-    font-size: 1rem;
-    margin-right: 3.9%;
+    display: inline-block;/*Указываю что блочные элементы должны стать блочно строчные */
+    font-size: 1rem;/*РАзмер букв */
+    margin-right: 3.9%;/*Указываю наружный отступ справа */
 }
 
 .menu__link,
 .menu__link-primary {
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #000000;
-    font-weight: 400;
+    text-transform: uppercase;/*Все буквы с большой  */
+    text-decoration: none;/*Убираю подчеркивание */
+    color: #000000;/*Указываю  цвет линков */
+    font-weight: 400;/*Указываю  толщину линков */
 }
 
 .menu__link-primary {
-    color: #34547A;
+    color: #34547A;/*Задаю цвет линку "Главная" */
 }
 
 .menu__link:hover,
-.menu__link-primary:hover {
-    text-decoration: underline;
+.menu__link-primary:hover,
+.main__button-btn:hover  {
+    text-decoration: underline;/*Указываю  что при наведении на нопку и линк она будет подчеркнута */
 }
 
 .main__title {
-    font-size: 2.5rem;
-    margin-bottom: 6%;
-    font-weight: 500;
+    font-size: 2.5rem;/*Указываю размер текста */
+    margin-bottom: 6%;/*Указываю наружный отступ снизу */
+    font-weight: 500;/*Указываю толщину букв */
 }
 
 .main__button {
-    width: 23%;
-    display: inline-block;
-    padding: 2% 4%;
-    background: #34547A;
+    width: 23%;/*Указываю ширину данного блока */
+    padding: 2% 4%;/*Указываю внутренний отступ кнопки */
+    background: #34547A;/*Указываю цвет фона */
 }
 
 .main__button-btn {
-    text-transform: uppercase;
-    color: #FFFFFF;
-    text-decoration: none;
+    text-transform: uppercase;/*Все буквы с большой  */
+    color: #FFFFFF;/*Задаю цвет надписи в кнопке*/
+    text-decoration: none;/*Убираю подчеркивание на странице */
 }
 
 .main__text {
-    width: 40%;
-    margin-bottom: 6.1%;
-}
-
-.main__button-btn:hover {
-    text-decoration: underline;
+    width: 40%;/*Указываю ширину данного блока */
+    margin-bottom: 6.1%;/*Указываю наружный отступ снизу */
 }
 
 .main__text,
 .section__text,
 .work__text {
-    font-style: normal;
-    line-height: 1rem;
-    color: #727272;
+    font-style: normal;/*Делаю пространство между строками в тексе */
+    line-height: 1rem;/*Указываю размер текста */
+    color: #727272;/*Задаю цвет тексту*/
 }
 .section__text {
-    margin-bottom: 8%;
+    margin-bottom: 8%;/*Указываю наружный отступ снизу */
 }
 
 .work__text {
-    margin-bottom: 5.1%;
+    margin-bottom: 5.1%;/*Указываю наружный отступ снизу */
 }
 .section__title,
 .work__title  {
     font-size: 2rem;
-    text-align: center;
-    font-weight: 500;
-    margin: 11% 0 5%;
+    text-align: center;/*Центрирую заголовки по центру  */
+    font-weight: 500;/*Указываю толщину */
+    margin: 11% 0 5%;/*Делаю наружный отступ сверху и снизу */
 }
 
 .primary {
     width: 49%;
-    text-align: center;
+    text-align: center;/*Центрирую основной текст по центру  */
 }
 
 .projects,
 .footer {
-    background: #34547A;
+    background: #34547A; /*Указываю цвет  для футера и класса проект*/
 }
 
 .projects-wrap,
 .projects__item,
 .projects__description {
-    display: flex;
+    display: flex;/*делаю одинаковій отступ для ндписи "Проектк" */
 }
 
 .projects-wrap {
-    padding: 9% 0;
-    justify-content: space-between;
+    padding: 9% 0;/*Указываю внутренний оступ для блока*/
+    justify-content: space-between;/*делаю одинаковое растояние  для соседних элементов*/
 }
 
 .projects__description {
-    color: #FFFFFF;
-    flex-direction: column ;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    justify-content: space-between;
+    color: #FFFFFF;/*Указываю цвет */
+    flex-direction: column ;/*Задаю размещение колоной сверху вниз  */
+    padding-bottom: 10px;/*Указываю внутренний отступ сверху */
+    padding-left: 20px;/*Указываю внутренний отступ слева */
+    justify-content: space-between; /*делаю одинаковій отступ для ндписи "Проектк" */
 }
 
 .projects__title {
-    font-weight: bold;
+    font-weight: bold;/*Задал толщину для h3 */
 }
 
 .work,
 .section {
-    background-color: #FFFFFF;
+    background-color: #FFFFFF;/*Задаю цвет фона для вабранных классов*/
 }
 
 .video-wrap {
-    position: relative;
-    margin-bottom: 9%;
+    position: relative;/*Указываю родителя для кнопки  */
+    margin-bottom: 9%;/*Указываю наружный отступ  после видео */
 }
 .video {
     width: 100%;/*ширина блока с видео*/
@@ -142,18 +138,18 @@
 }
 
 .video__image-wrap {
-    position: absolute;
-    top: 40%;
-    left: 45%;
+    position: absolute;/*Позиционирую кнопку относительно родителя */
+    top: 40%;/*отступ сверху от родителя*/
+    left: 45%;/*отступ слева от родителя  */
 }
 
 .footer-wrap {
-    margin-left: 20%;
-    padding: 1%;
-    color: #FFFFFF;
+    margin-left: 20%;/*Задаю наружный отступ у футера для надписи */
+    padding: 1%;/*Задаю внутренний отступ для КОпирайта */
+    color: #FFFFFF;/*Задаю им цвет  */
 }
 
 .footer__title {
-    margin-bottom: 1%;
-    font-weight: 400;
+    margin-bottom: 1%;/*Задал наружный отступ Тителу футера */
+    font-weight: 400;/*Задал  размер шрифта*/
 }
