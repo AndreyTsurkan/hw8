@@ -148,11 +148,12 @@
 }
 
 .footer-wrap {
-    margin-left: 21%;
+    margin-left: 20%;
+    padding: 1%;
     color: #FFFFFF;
 }
 
 .footer__title {
-    font-size: 20px;
-    font-weight: 500;
+    margin-bottom: 1%;
+    font-weight: 400;
 }
